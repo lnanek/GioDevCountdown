@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <!--  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
+    <!--  <meta name="viewport" content="width=device-width, initial-scale=0.25">-->
+    <link type="text/css" rel="stylesheet" href="GoogleIOContest2.css">
+    <title>Google I/O Countdown: Passionate about Developing</title>
+    <script type="text/javascript" src="googleiocontest2/googleiocontest2.nocache.js"></script>
+	<!-- <script type="text/javascript" src="client_side_only.js"></script>-->
+	<script type="text/javascript" src="client_side_only.closure_minimized.js"></script>
+  </head>
+  <body id="body" onmousemove="handleMouseMove(event)" onmouseup="handleMouseUp(event)"
+  >
+
+	<article>
+	    <noscript>
+	      <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+	        Your web browser must have JavaScript enabled
+	        in order for this application to display correctly.
+	      </div>
+	    </noscript>
+	    
+	    <table>
+		    <tr>
+		    	<td class="logo" colspan="12" id="logoContainer">
+	    			<img id="logoImage" src="images/logo.png" onmousedown="handleMouseDown(event)" />
+	    			<img id="logoReplacement" src="images/logo_blank.png" />
+	    		</td>
+		    </tr>
+	    	<tr>
+	    		<!-- Days -->
+	    		<td class="phone"  onmouseover="handleMouseOverDigit(this, 'digitDaysHundreds')"><div class="overlapper"><img id="digitDaysHundredsPhone" style="width:100%" src="images/nexus_one.jpg"><img id="digitDaysHundreds" class="digit" style="width:100%" src="images/digit_blank.png"></div></td>
+	    		<td class="phone"  onmouseover="handleMouseOverDigit(this, 'digitDaysTens')"><div class="overlapper"><img id="digitDaysTensPhone" style="width:100%" src="images/nexus_one.jpg"><img id="digitDaysTens" class="digit" style="width:100%" src="images/digit_blank.png"></div></td>
+	    		<td class="phone"  onmouseover="handleMouseOverDigit(this, 'digitDaysOnes')"><div class="overlapper"><img id="digitDaysOnesPhone" style="width:100%" src="images/nexus_one.jpg"><img id="digitDaysOnes" class="digit" style="width:100%" src="images/digit_blank.png"></div></td>
+	    		
+	    		<td> <span class="heart">♥</span></td>
+	    		
+	    		<!-- Hours -->
+	    		<td class="phone"  onmouseover="handleMouseOverDigit(this, 'digitHoursTens')"><div class="overlapper"><img id="digitHoursTensPhone" style="width:100%" src="images/nexus_one.jpg"><img id="digitHoursTens" class="digit" style="width:100%" src="images/digit_blank.png"></div></td>
+	    		<td class="phone"  onmouseover="handleMouseOverDigit(this, 'digitHoursOnes')"><div class="overlapper"><img id="digitHoursOnesPhone" style="width:100%" src="images/nexus_one.jpg"><img id="digitHoursOnes" class="digit" style="width:100%" src="images/digit_blank.png"></div></td>
+	    		
+	    		<td> <span class="heart">♥</span></td>
+	    		
+	    		<!-- Minutes -->
+	    		<td class="phone"  onmouseover="handleMouseOverDigit(this, 'digitMinutesTens')"><div class="overlapper"><img id="digitMinutesTensPhone" style="width:100%" src="images/nexus_one.jpg"><img id="digitMinutesTens" class="digit" style="width:100%" src="images/digit_blank.png"></div></td>
+	    		<td class="phone"  onmouseover="handleMouseOverDigit(this, 'digitMinutesOnes')"><div class="overlapper"><img id="digitMinutesOnesPhone" style="width:100%" src="images/nexus_one.jpg"><img id="digitMinutesOnes" class="digit" style="width:100%" src="images/digit_blank.png"></div></td>
+	    		
+	    		<td> <span class="heart">♥</span></td>
+	    		
+	    		<!-- Seconds -->
+	    		<td class="phone"  onmouseover="handleMouseOverDigit(this, 'digitSecondsTens')"><div class="overlapper"><img id="digitSecondsTensPhone" style="width:100%" src="images/nexus_one.jpg"><img id="digitSecondsTens" class="digit" style="width:100%" src="images/digit_blank.png"></div></td>
+	    		<td class="phone"  onmouseover="handleMouseOverDigit(this, 'digitSecondsOnes')"><div class="overlapper"><img id="digitSecondsOnesPhone" style="width:100%" src="images/nexus_one.jpg"><img id="digitSecondsOnes" class="digit" style="width:100%" src="images/digit_blank.png"></div><script>handleLoad()</script></td>
+	    	</tr>
+		    <tr>
+		    	<td class="logo" colspan="12">
+				    <h1>
+				    	Software development is 
+				    	sending our love (and useful software <span class="heart">♥</span>)<br />
+				    	to all those users out there
+				    	(and their wonderful hardware <span class="heart">♥</span>).
+				    </h1>
+		    	</td>
+		    </tr>
+	    </table>
+    </article>
+    <aside>
+		<img src="phones/193004.jpg" />
+		<img src="phones/272006.jpg" />
+		<img src="phones/279006.jpg" />
+		<img src="phones/293003.jpg" />
+		<img src="phones/293004.jpg" />
+		<img src="phones/302002.jpg" />
+		<img src="phones/311006.jpg" />
+		<img src="phones/345006.jpg" />
+		<img src="phones/358001.jpg" />
+		<img src="phones/420004.jpg" />
+		<img src="phones/444002.jpg" />
+		<img src="phones/58003.jpg" />
+		<img src="phones/608002.jpg" />
+		<img src="phones/72002.jpg" />
+		<img src="phones/850005.jpg" />
+		<img src="phones/850008.jpg" />
+		<img src="phones/892058.jpg" />
+    </aside>
+  </body>
+</html>
